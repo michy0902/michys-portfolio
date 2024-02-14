@@ -2,9 +2,10 @@ body {
 
     margin: 0;
     font-family: Arial, sans-serif;
-    overflow: hidden;
-    border: whitesmoke;
-    border-width: 2px;
+    /* overflow: hidden; */
+    border: 1.5px solid white;
+
+
   }
 
  #preloader {
@@ -42,13 +43,7 @@ body {
     }
 }
 
-body {
 
-    background-color: #1d1c1a;
-    border: 1.5px solid white;
-    margin: 10px;
-    border-bottom: 100;
-   }
 
    nav a {
 
@@ -90,4 +85,11 @@ nav a:hover{
     z-index: -1;
   }
   
-  
+  #home-content p {
+      width: 300px; /* Set the desired width of the box */
+      border: 1px solid #ccc; /* Add a border for better visualization */
+      padding: 10px; /* Add padding for spacing between text and border */
+      overflow: hidden; /* Hide any content that overflows the box */
+      color: azure;
+      margin-left: 75em;
+  }
