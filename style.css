@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     /* overflow: hidden; */
     border: 1.5px solid white;
-
+    padding: 20px;
 
   }
 
@@ -63,7 +63,8 @@ nav a:hover{
    }
 
    .siteheadertitle{
-    font-family: 'IBM Plex Serif', serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
     font-size: 20px;
     color: whitesmoke;
     margin: 20px;
@@ -85,11 +86,15 @@ nav a:hover{
     z-index: -1;
   }
   
-  #home-content p {
+  #homecontent p {
       width: 300px; /* Set the desired width of the box */
-      border: 1px solid #ccc; /* Add a border for better visualization */
+      /* border: 1px solid #ccc; */
       padding: 10px; /* Add padding for spacing between text and border */
       overflow: hidden; /* Hide any content that overflows the box */
-      color: azure;
-      margin-left: 75em;
+      size: 19px;
+      margin-left: 74em;
+      margin: bottom 0;
+      font-family: "Roboto Condensed", sans-serif;
+      color: whitesmoke;
+      
   }
