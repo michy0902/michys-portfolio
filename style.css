@@ -96,5 +96,6 @@ nav a:hover{
       margin: bottom 0;
       font-family: "Roboto Condensed", sans-serif;
       color: whitesmoke;
+      transition: opacity 0.5s ease-in-out;
       
   }
